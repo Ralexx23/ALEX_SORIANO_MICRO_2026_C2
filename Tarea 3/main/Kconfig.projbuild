@@ -1,0 +1,15 @@
+menu "Configuracion WiFi del proyecto"
+
+    config WIFI_SSID
+        string "WiFi SSID"
+        default "MiRed"
+        help
+            SSID de la red WiFi a la que se conectara la ESP32.
+
+    config WIFI_PASSWORD
+        string "WiFi Password"
+        default "MiPassword"
+        help
+            Password de la red WiFi.
+
+endmenu
